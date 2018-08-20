@@ -10,10 +10,6 @@ function theBeatlesPlay(artist, instrument) {
 
 function johnLennonFacts(facts) {
   var i = 0;
-  //facts = ["He was the last Beatle to learn to drive",
-  //"He was never a vegetarian",
-  //"He was a choir boy and boy scout",
-  //"He hated the sound of his own voice"];
   var exc = [];
   while (i < facts.length) {
     exc.push(facts[i] + "!!!");
@@ -21,4 +17,9 @@ function johnLennonFacts(facts) {
   }
   
   return exc;
+}
+
+function iLoveTheBeatles(n) {
+  var luv = [];
+  
 }
